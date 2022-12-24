@@ -43,8 +43,9 @@ window.addEventListener("scroll",changeColor);
     </ul>
     <div className="hamburger" onClick={handleClick}>
         {click ?
-    (<FaBars size={20} style={{color:"#fff"}}/>) :
-    (<FaTimes size={20} style={{color:"#fff"}}/>)}
+    (<FaTimes size={20} style={{color:"#fff"}}/>) :
+    (<FaBars size={20} style={{color:"#fff"}}/>)
+    }
     </div>
     </div>
   )
