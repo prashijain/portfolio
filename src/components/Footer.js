@@ -38,7 +38,7 @@ const Footer = () => {
                 About The company
             </h4>
             <p>
-                This is me Shloka Mahesheka. CEO & Founder of Tech2etc. 
+                This is me Prashi Jain. CEO & Founder of Tech2etc. 
                 I enjoy discussing new peojects and design challenges
             </p>
             <div className="social">
