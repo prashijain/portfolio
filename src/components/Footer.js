@@ -1,6 +1,7 @@
 import "./FooterStyles.css";
 import React from "react";
-import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter , FaGithub } from "react-icons/fa";
+import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter , FaGithub ,FaHackerrank } from "react-icons/fa";
+import {SiLeetcode} from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -42,22 +43,29 @@ const Footer = () => {
                 I enjoy discussing new peojects and design challenges
             </p>
             <div className="social">
-            <FaFacebook
+            <a href = "https://www.facebook.com/prashi.jain.9822" > <FaFacebook
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }  }
+              />  </a>
+              <a href = "https://www.linkedin.com/in/prashi-jain-2391111a5/" > <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              /> </a>
+             <a href = "https://github.com/prashijain" >  <FaGithub
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              /> </a>
+             <a href = "https://www.hackerrank.com/jainprashii" >  <FaHackerrank
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              /> </a>
+             <a href="https://leetcode.com/JAINPRASHI/">
+              <SiLeetcode
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
-              <FaTwitter
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
-              <FaLinkedin
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
-              <FaGithub
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
+              </a>
+
             </div>
         </div>
       </div>
